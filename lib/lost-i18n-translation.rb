@@ -1,0 +1,2 @@
+module LostI18nTranslation
+end
