@@ -1,0 +1,30 @@
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:15:31 +0200
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:19:49 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 63ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:19:49 +0200
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css  (0ms)  (pid 23714)
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/home.css.scss  (15ms)  (pid 23714)
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css  (0ms)  (pid 23714)
+Served asset /application.css - 200 OK  (18ms)  (pid 23714)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2011-07-14 16:19:49 +0200
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/application.js  (14ms)  (pid 23714)
+Compiled ~/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery.js  (57ms)  (pid 23714)
+Compiled ~/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery_ujs.js  (3ms)  (pid 23714)
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/home.js.coffee  (533ms)  (pid 23714)
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/application.js  (0ms)  (pid 23714)
+Served asset /application.js - 200 OK  (612ms)  (pid 23714)
