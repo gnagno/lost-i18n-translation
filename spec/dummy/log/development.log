@@ -28,3 +28,229 @@ Compiled ~/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/jquery-rails-1.0.12/vendor/as
 Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/home.js.coffee  (533ms)  (pid 23714)
 Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/application.js  (0ms)  (pid 23714)
 Served asset /application.js - 200 OK  (612ms)  (pid 23714)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:25:04 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 100ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:25:04 +0200
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css  (0ms)  (pid 24026)
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/home.css.scss  (6ms)  (pid 24026)
+Served asset /application.css - 304 Not Modified  (10ms)  (pid 24026)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2011-07-14 16:25:04 +0200
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/application.js  (2ms)  (pid 24026)
+Compiled ~/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery.js  (0ms)  (pid 24026)
+Compiled ~/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery_ujs.js  (0ms)  (pid 24026)
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/home.js.coffee  (131ms)  (pid 24026)
+Served asset /application.js - 304 Not Modified  (138ms)  (pid 24026)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:25:14 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:25:50 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:25:53 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:26:54 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:26:57 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:27:08 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:27:08 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2011-07-14 16:27:08 +0200
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/application.js  (2ms)  (pid 24256)
+Compiled ~/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery.js  (0ms)  (pid 24256)
+Compiled ~/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery_ujs.js  (0ms)  (pid 24256)
+Compiled ~/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/javascripts/home.js.coffee  (174ms)  (pid 24256)
+Served asset /application.js - 304 Not Modified  (182ms)  (pid 24256)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:27:09 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:27:10 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2011-07-14 16:27:10 +0200
+Served asset /application.js - 304 Not Modified  (0ms)  (pid 24256)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:27:12 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:27:14 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:35:26 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.8ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:35:28 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 16:35:29 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:35:32 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost-i18n-translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:37:16 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.3ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:38:51 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.5ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:38:59 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 16:43:29 +0200
+Error compiling asset application.css:
+Sprockets::FileNotFound: couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)
+
+Sprockets::FileNotFound (couldn't find file 'lost_i18n_translation'
+  (in /home/gnagno/workspace.php/rails/lost-i18n-translation/spec/dummy/app/assets/stylesheets/application.css:7)):
+  
+
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/gnagno/.rvm/gems/ruby-1.9.2-head@rails3.1/gems/actionpack-3.1.0.rc3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
